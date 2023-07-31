@@ -121,7 +121,6 @@ local ThemeManager = {} do
 				self.Library:Notify(string.format('Set default theme to %q', Options.ThemeManager_CustomThemeList.Value))
 			else:
 			     	self.Library:Notify(string.format('Select default theme.')
-			end
 		end)
 
 		ThemeManager:LoadDefault()
