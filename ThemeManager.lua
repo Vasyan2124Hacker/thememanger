@@ -119,6 +119,8 @@ local ThemeManager = {} do
 			if Options.ThemeManager_CustomThemeList.Value ~= nil and Options.ThemeManager_CustomThemeList.Value ~= '' then
 				self:SaveDefault(Options.ThemeManager_CustomThemeList.Value)
 				self.Library:Notify(string.format('Set default theme to %q', Options.ThemeManager_CustomThemeList.Value))
+			else:
+			     warn("Test")	
 			end
 		end)
 
