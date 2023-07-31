@@ -120,7 +120,7 @@ local ThemeManager = {} do
 				self:SaveDefault(Options.ThemeManager_CustomThemeList.Value)
 				self.Library:Notify(string.format('Set default theme to %q', Options.ThemeManager_CustomThemeList.Value))
 			else:
-			     warn("Test")	
+			     	self.Library:Notify(string.format('Select default theme.')
 			end
 		end)
 
